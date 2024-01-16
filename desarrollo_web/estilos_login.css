@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+}
+
+.contenedor{
+    background-color: #fff;
+    width: 28%;
+    margin: 5em auto;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 50%);
+}
+
+.contenedor .titulo .titulo{
+    background-color: #000000;
+    width: 100%;
+    display: block;
+    padding: 1em;
+    font-size: 1.3em;
+    color: #ffffff;
+    text-align: center;
+}
+
+.contenedor .login{
+    background-color: #fff;
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+}
+
+.contenedor .login label{
+    width: 100%;
+    display: block;
+    padding: 0 1em;
+    font-size: 1em;
+    color: #111111;
+    margin: auto;
+}
+
+input[type=text], input[type=password]{
+    font-size: 1em;
+    width: 70%;
+    border: 2px solid #9fa09f;
+    outline: none;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.contenedor .btn-group{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+
+.contenedor .login .sesion{
+    border: none;
+    border-radius: 3px;
+    display: block;
+    font-size: 1em;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 120px;
+}
+
+.contenedor .login .sesion{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.contenedor .registro{
+    margin: 20px;
+}

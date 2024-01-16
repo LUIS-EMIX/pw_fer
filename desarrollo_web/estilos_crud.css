@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ccc;
+    font-family: 'nunito';
+}
+
+.menu_horizontal{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    color: black;
+    padding: 10px;
+    margin-bottom: 2px;
+    padding-bottom: 20px;
+}
+
+.menu_horizontal .t1{
+    margin-left: 1em;
+    color: black;
+    font-size: 1.5em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 70px;
+}
+
+.menu_horizontal .buscador{
+    text-align: center;
+    margin-top: -41px;
+    margin-bottom: 25px;
+}
+
+.menu_horizontal .buscador input{
+    padding: 8px 80px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.menu_horizontal .ele{
+    text-align: right;
+    margin-right: 80px;
+    margin-top: -50px;
+}
+
+.menu_vertical{
+    list-style-type: none;
+    margin-top: -85px;
+    padding: 0;
+    overflow: hidden;
+    float: left;
+    background-color: white;
+    height: 648px;
+}
+
+.menu_vertical .inicio{
+    margin-top: 18px;
+}
+
+.menu_vertical a{
+    color: black;
+    float: center;
+    padding: 16px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.menu_vertical i{
+    margin-right: 5px;
+    color: black;
+    font-size: 1.2em;
+}
+
+@font-face {
+    font-family: nunito;
+    src: url(css/Nunito_Sans/NunitoSans-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.contenedor{
+    background-color: #fff;
+    color: #000;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 100px;
+    border-radius: 10px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.contenedor .titulo {
+    margin-top: -80px;
+    margin-left: 400px;
+    font-size: 1.5em;
+}
+
+table{
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 110px;
+    margin-top: 20px;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 50%);
+}
+
+thead{
+    background-color: #252440;
+    font-size: 1em;
+    color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+td, th{
+    border: none;
+    text-align: center;
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+}
+
+.registros{
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: justify;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario de registro</title>
+    <link rel="stylesheet" href="estilos_formulario.css">
+</head>
+<body>
+    <div class="contenedor">
+        <label for="titulo" class="titulo">Registro de usuarios</label>
+        <form action="alta_usuario.php" class="formulario" name="formulario" method="post">
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" id="nombre" class="form-control" required placeholder="Escribe tu nombre.">
+            <label for="apellidos">Apellidos: </label>
+            <input type="text" name="apellidos" id="apellidos" class="form-control" required placeholder="Escribe tus apellidos.">
+            <label for="genero">Seleccione su género: </label>
+                <div class="radio">
+                    <input type="radio" value="M" name="genero" id="H" required>
+                    <label for="H">Masculino</label>
+                    <input type="radio" value="F" name="genero" id="M">
+                    <label for="M">Femenino</label>
+                    <span class="error-message" id="generoError">Seleccione un género.</span>
+                </div>
+            <label for="domicilio">Domicilio: </label>
+            <input type="text" name="domicilio" id="domicilio" class="form-control" required placeholder="Escribe tu domicilio.">
+            <label for="usuario">Usuario: </label>
+            <input type="text" name="usuario" id="usuario" placeholder="Escribe nombre de usuario">
+            <label for="pwd">Contraseña: </label>
+            <input type="password" name="pwd" id="pwd" placeholder="Escribe tu contraseña">
+            <div class="checkbox">
+                <input type="checkbox" required name="checkbox" id="checkbox">
+                <label for="checkbox">Acepto los términos y condiciones. </label>
+                <span class="error-message" id="terminosError">Acepta términos y condiciones.</span>
+            </div>
+            <div class="btn-group">
+                <a href="login.html" class="cancelar">Volver al login</a>
+                <input type="submit" value="Registrar" class="guardar">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
